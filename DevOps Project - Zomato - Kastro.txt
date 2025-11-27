@@ -58,6 +58,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo usermod -aG docker ubuntu
 sudo chmod 777 /var/run/docker.sock
 newgrp docker
+sudo systemctl start docker
 sudo systemctl status docker
 
 Verifiy Docker installation: docker --version
@@ -717,6 +718,7 @@ Kind Request:
 Once after you have successfully deployed the App, kindly share your experience on LinkedIn by Tagging me and also provide the YouTube link of this project in your post, as it helps others to access the video quickly. 
 ========================================================================================================
 												HAPPY LEARNING
+
 
 
 
