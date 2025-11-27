@@ -77,7 +77,7 @@ Verifiy Trivy installation: trivy --version
 Make sure to Login to DockerHub account in browser (<Follow the process as explained in the video>)
 docker login -u dockerid9035
 curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh -s -- -b /usr/local/bin
-sudo chmod 777 /var/run/docker.scout
+sudo chmod 777 /var/run/docker.sock
 
 
 
@@ -718,6 +718,7 @@ Kind Request:
 Once after you have successfully deployed the App, kindly share your experience on LinkedIn by Tagging me and also provide the YouTube link of this project in your post, as it helps others to access the video quickly. 
 ========================================================================================================
 												HAPPY LEARNING
+
 
 
 
